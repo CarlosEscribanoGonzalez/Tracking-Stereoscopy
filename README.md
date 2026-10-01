@@ -1,5 +1,5 @@
 ## Overview
-Augmented reality and stereoscopic rendering project written in C++ with OpenGL, ArUco and OpenCV. The first part tracks ArUco markers to control a virtual camera and a virtual object. The second part renders the scene in stereo using two different methods, toe-in and off-axis, with red/blue anaglyph filters.
+Marker-based tracking and stereoscopic rendering project written in C++ with OpenGL, OpenCV and ArUco. The first part uses ArUco markers detected through a webcam to control a virtual camera and a virtual object in real time. The second part renders the scene in stereo using two different methods, toe-in and off-axis, with red/blue anaglyph filters.
 
 ## Part 1: Marker Tracking
 
